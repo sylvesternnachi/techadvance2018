@@ -1,0 +1,275 @@
+body{
+	background:#fff;
+     font-family: 'gelion_regularregular';
+}
+@font-face {
+    font-family: 'gelion_boldbold';
+    src: url(../fonts/gelion-bold-webfont.woff2) format('woff2'),
+         url(../gelion-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gelionmedium';
+    src: url(../fonts/gelion-medium-webfont.woff2) format('woff2'),
+         url(../fonts/gelion-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gelion_regularregular';
+    src: url(../fonts/gelion-regular-webfont.woff2) format('woff2'),
+         url(../fonts/gelion-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#top-section{
+    width: 100%;
+    height: 660px;
+    background: #ECFAFF;
+}
+header{
+    width: 100%;
+    height: auto;
+    padding:2%;
+}
+
+#banner{
+    width: 100%;
+    height: 400px;
+
+}
+
+#banner h2{
+     font-family: 'gelion_boldbold';
+     color:#1B1B1B;
+     font-size: 45px;
+     margin-top: 20%;
+}
+
+#banner p{
+    font-family: 'gelionmedium';
+    font-size: 25px;
+    color:#66646F;
+}
+
+.b_button{
+    border:none;
+    background:#0EDE9A;
+    padding: 2% 6%;
+    color:white;
+    font-family: 'gelionmedium';
+    border-radius: 5px;
+    font-size: 22px;
+    border-right: 60px solid #1C9E73;
+}
+
+.arrow{
+position: relative;
+    left: 69px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+#sub-plat{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 5%;
+}
+
+#sub-plat h2{
+       font-family: 'gelionmedium';
+     color:#0E8DE1;
+     font-size: 45px;
+}
+
+#sub-plat h3{
+       font-family: 'gelionmedium';
+     color:#1C1C1C;
+     font-size: 45px;
+}
+
+#sub-plat h4{
+       font-family: 'gelion_regularregular';
+     color:#1C1C1C;
+     font-size: 19px;
+}
+
+#sub-plat h5{
+       font-family: 'gelionmedium';
+     color:#1C1C1C;
+     font-size: 24px;
+}
+
+#sub-plat p{
+           font-family: 'gelion_regularregular';
+     color:#1C1C1C;
+     font-size: 18px;
+}
+
+.sp-box{
+    width: 100%;
+    height: auto;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 13%;
+    padding: 5%;
+}
+
+.sp-text-box h2{
+    color:#1C1C1C !important;
+    padding-bottom: 4%;
+        margin-top: 0px;
+}
+
+.sp-text-box p{
+       font-family: 'gelion_regularregular';
+     color:#1C1C1C;
+     font-size: 18px;
+}
+
+.sp_button{
+    border:none;
+    background:#1197FF;
+    padding: 2% 6%;
+    color:white;
+    font-family: 'gelionmedium';
+    border-radius: 5px;
+    font-size:19px;
+}
+
+#home-abt-box{
+    width: 100%;
+    height: 430px;
+    background:url(../../assets/img/about-bg-img.png) #0E8BDE;
+    padding: 4%;
+
+}
+
+#home-abt-box h2{
+       font-family: 'gelionmedium';
+     color:#fff;
+     font-size: 45px;
+}
+
+#home-abt-box p{
+       font-family: 'gelion_regularregular';
+     color:#fff;
+     font-size: 18px;
+}
+
+.ta-staff{
+margin-top: -129px;
+}
+
+.white-btn{
+    padding: 2% 10%;
+    border:none;
+    border-radius: 10px;
+    background: white;
+    font-size: 20px;
+    color:#0B97F5;
+    font-family: 'gelionmedium';
+}
+
+
+
+footer{
+    float: left;
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 5% 0%;
+}
+
+footer h2{
+  font-family: 'gelionmedium', sans-serif;
+   font-size: 27px;
+    color:#053f7b;
+    margin-bottom: 3%;
+}
+
+footer p{
+  font-family: 'gelion_regularregular', sans-serif;
+   font-size: 18px;
+    color:#053f7b;
+
+}
+
+footer h3{
+     font-family: 'gelion_regularregular', sans-serif;
+   font-size: 20px;
+    color:#053f7b;
+    font-weight: bolder;
+    margin-bottom: 8%
+}
+
+footer ul li{
+     font-family: 'gelion_regularregular', sans-serif;
+   font-size: 18px;
+    color:#456586;
+    list-style: none;
+    margin-top:2%; 
+}
+
+
+/*** ABOUT **/
+
+.static-header{
+    background:url(../../assets/img/about-bg-img.png) #ECFAFF !important;
+}
+
+#static_banner{
+    width: 100%;
+    min-height: 300px;
+}
+
+#static_banner h1{
+    font-family: 'gelionmedium', sans-serif;
+   font-size: 57px;
+    color:#1C1C1C;
+    margin-top: 8%;
+}
+
+#join-us-box{
+    width: 100%;
+    height: auto;
+    background:#0E8DE1;
+    padding: 3% 3% 0% 3%;
+}
+
+.cpx{
+    padding: 2%;
+}
+
+.team-img{
+    margin-top:0%;
+}
+
+#join-us-box h1{
+    color:white;
+     font-family: 'gelionmedium', sans-serif;
+   font-size: 47px;
+
+}
+
+.j-button{
+    padding: 1% 4%;
+    border:2px solid #fff;
+    border-radius: 10px;
+    background: none;
+    font-size: 22px;
+    color:white;
+}
