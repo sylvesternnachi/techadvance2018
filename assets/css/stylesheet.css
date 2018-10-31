@@ -34,7 +34,7 @@ body{
 header{
     width: 100%;
     height: auto;
-    padding:2%;
+    padding:10px;
 }
 
 #banner{
@@ -233,7 +233,7 @@ footer ul li{
 
 #static_banner{
     width: 100%;
-    min-height: 300px;
+    min-height: 340px;
 }
 
 #static_banner h1{
@@ -272,4 +272,99 @@ footer ul li{
     background: none;
     font-size: 22px;
     color:white;
+}
+.roundBall {
+  left: 44px;
+  position: absolute; }
+  .roundBall:nth-of-type(2) {
+    left: 28%;
+    margin-top: -12%; }
+    .roundBall:nth-of-type(2) i {
+      background: #f9852c !important; }
+  .roundBall:nth-of-type(3) {
+    left: 0;
+    margin-top: 23%;
+    margin-left: 33%; }
+    .roundBall:nth-of-type(3) i {
+      background: #ef2f2a !important; }
+  .roundBall:nth-of-type(5) {
+    left: 70%;
+    margin-top: 23%; }
+    .roundBall:nth-of-type(5) i {
+      background: #f21093 !important; }
+  .roundBall:nth-of-type(4) {
+    left: 47%;
+    margin-top: 4%; }
+    .roundBall:nth-of-type(4) i {
+      background: #15a3f7 !important; }
+  .roundBall:nth-of-type(6) {
+    left: 73%;
+    margin-top: -14%; }
+    .roundBall:nth-of-type(6) i {
+      background: #1e4d74 !important; }
+  .roundBall .well {
+    background: #fff;
+    border: none;
+    box-shadow: 0 2px 15px #0000001a;
+    margin-top: -82%;
+    width: 157%;
+    text-align: center;
+    margin-left: -62%;
+    display: none;
+    padding: 9px; }
+    .roundBall .well button {
+      background: transparent;
+      border: navajowhite;
+      padding: 6px 3px 12px;
+      border-top: 1px solid #ddd; }
+  .roundBall i {
+    height: 23px;
+    position: absolute;
+    width: 23px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    border: 3px solid #ecfaff;
+    background: #9f6df5;
+    animation: warble;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+
+@keyframes warble {
+  0% {
+    box-shadow: 0 0px 9px 0px #a7dcef; }
+  100% {
+    box-shadow: 0 0px 0px 5px #a7dcef; } }
+.roundBall i:hover + .well {
+  display: block !important; }
+
+.roundBall .well:hover {
+  display: block !important; }
+
+.navbar {
+  background: transparent;
+  border: none; 
+padding: 0px 2.5%;}
+.navbar-default .navbar-nav > li > a {
+    color: #424242 !important;
+    font-size: 19px;
+    font-weight: 500;
+}
+.allForm .form-control {
+    padding: 23px 17px;
+    box-shadow: none;
+    margin-bottom: 1.3%;
+}
+.well.contact_well {
+    padding: 29px 43px;
+    border: none;
+    box-shadow: none;
+    background: #f7f7f7;
+}
+.well.contact_well label {
+    font-size: 15px;
+    font-weight: 800;
+    color: #333;
+    margin-top: 1%;
 }
