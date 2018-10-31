@@ -368,3 +368,22 @@ padding: 0px 2.5%;}
     color: #333;
     margin-top: 1%;
 }
+.panel_career .panel.panel-default {
+    background-color: #fff !important;
+    border: none;
+    /*border-bottom: 2px solid #e0e0e0;*/
+    border-radius: 1px;
+    box-shadow: none !important;
+        padding: 12px 0px;
+}
+.panel-heading {
+    background: #fff !important;
+    border-bottom: 1px solid #e2e2e2 !important;
+}
+.panel_career .panel h4 {
+    font-weight: 400;
+}
+.panel_career .panel p {
+    font-weight: 400;
+    font-size: 15px !important;
+}
