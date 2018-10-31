@@ -23,11 +23,14 @@
         <div class="collapse navbar-collapse" id="myNavbar">
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Team</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html" style="background: #0293ec;
+            color: #fff !important;
+            border-radius: 7px;">Contact</a></li>
+            <li><a href="#"><img src="assets/img/2000px-Flag_of_Nigeria.svg.png" class="img-responsive" alt=""></a></li>
           </ul>
         </div>
       </div>
@@ -60,19 +63,22 @@
           </div>
            
         </div>
-         <button class="btn btn-success" style="border: none; padding: 12px 46px; font-size: 15px; margin-top: 8px; background: #0E8DE1;">Add More</button><br><br>
+         <div class="container2"></div>
+        <button class="btn btn-success add_form_field1" style="border: none; padding: 12px 46px; font-size: 15px; margin-top: 8px; background: #0E8DE1;">Add More</button><br><br>
           <label for="">Personal Certification Attained</label>
-        <div class="row">
+        <div class="row ">
           
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Certification">
+            <input type="text" class="form-control" placeholder="Certification" name="">
           </div>
           <div class="col-md-6">
-            <input type="text" class="form-control" placeholder="Certificate Date Issued">
+            <input type="text" class="form-control" placeholder="Certificate Date Issued" name="">
           </div>
             
         </div>
-        <button class="btn btn-success" style="border: none; padding: 12px 46px; font-size: 15px; margin-top: 8px; background: #0E8DE1;">Add More</button><br><br>
+        <div class="container1"></div>
+        <button class="btn btn-success add_form_field" style="border: none; padding: 12px 46px; font-size: 15px; margin-top: 8px; background: #0E8DE1;">Add More</button>
+        <br><br>
         <label for="">Are You Employed ?</label>
         <p><input type="radio">Yes &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio">No</p>
         <label for="">If Yes, state the name of your current eemployer. If No, State Your Last Employer.</label>
@@ -195,4 +201,68 @@
 <!--Javascript link files -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+$(document).ready(function() {
+    var max_fields      = 10;
+    var wrapper         = $(".container1");
+    var add_button      = $(".add_form_field");
+  
+    var x = 1;
+    $(add_button).click(function(e){
+        e.preventDefault();
+        if(x < max_fields){
+            x++;
+            $(wrapper).append(`<span><div class="row"><div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Certification" name="">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Certificate Date Issued" name="">
+          </div>
+          <div class="col-md-1">
+            <a href="#" class="delete" style="background: #0ede9a; padding: 13px 11px; color: #fff; border-radius: 5px; display: block;margin-top: -1px;">Delete</a>
+          </div></div></span>`); //add input box
+        }
+  else
+  {
+  alert('You Reached the limits')
+  }
+    });
+  
+    $(wrapper).on("click",".delete", function(e){
+        e.preventDefault(); $(this).parents('div').parents('span').remove(); x--;
+    })
+});
+</script>
+<script>
+  $(document).ready(function() {
+    var max_fields      = 10;
+    var wrapper         = $(".container2");
+    var add_button      = $(".add_form_field1");
+  
+    var x = 1;
+    $(add_button).click(function(e){
+        e.preventDefault();
+        if(x < max_fields){
+            x++;
+            $(wrapper).append(`<span><div class="row"> <div class="col-md-6">
+            <input type="text" class="form-control" placeholder="Name Of School">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Certificate">
+          </div>
+          <div class="col-md-1">
+            <a href="#" class="delete" style="background: #0ede9a; padding: 13px 11px; color: #fff; border-radius: 5px; display: block;margin-top: -1px;">Delete</a>
+          </div></div></span>`); //add input box
+        }
+  else
+  {
+  alert('You Reached the limits')
+  }
+    });
+  
+    $(wrapper).on("click",".delete", function(e){
+        e.preventDefault(); $(this).parents('div').parents('span').remove(); x--;
+    })
+});
+</script>
 </html>
