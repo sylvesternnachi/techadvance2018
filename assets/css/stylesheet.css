@@ -422,3 +422,35 @@ padding: 0px 2.5%;}
     cursor: pointer;
 }
 
+.displ_desk{
+    display: block !important;
+}
+.displ_mobile {
+    display: none !important;
+}
+@media( max-width : 585px ) {
+   .displ_desk{
+    display: none !important;
+} 
+.displ_mobile {
+    display: block !important;
+}
+}
+@media( max-width : 989px ) {
+      .displ_desk{
+    display: none !important;
+} 
+.displ_mobile {
+    display: block !important;
+}
+
+}
+@media( max-width : 220px ){
+      .displ_desk{
+    display: none !important;
+} 
+.displ_mobile {
+    display: block !important;
+}
+
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -110,7 +111,28 @@
     <div class="container">
       <h2>Subsidiaries & Platforms</h2>
       <h4>Check our Subsidiaries & product below</h4>
-      <div class="col-md-6" style="padding-left: 0px;">
+      <div class="displ_mobile">
+        <ul class="nav nav-pills">
+          <br>
+          <li><a href="#"  class="sp-box bar__click" data-header="Gpay Africa" data-details="GPAY is a technology company that develops effective payment and data management systems for public and private sector organisations. <br /> <br />
+
+          Our core areas are revenue optimization, e-payment solutions and big data management for the electricity utility companies. In addition to our broad arsenal of payment applications and technologies we also operate over 250 payment points across 10 states of the federation on a billing aggregation platform that supports realtime transaction view, reconciliation and audit." data-href='<a href="https://www.gpayafrica.com/"><button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button></a>'>Gpay Africa</a></li>
+          <li><a href="#"  class="sp-box bar__click" data-header="Pay Electricity Bill" data-details="Simple bill payment from the comfort of your own home" data-href='<a href="https://www.payelectricitybills.com/"><button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button></a>'>Pay E-Bill</a></li>
+          <li><a href="#" class="sp-box bar__click" data-header="Bus.com.ng" data-details="Book tickets smarter, Earn rewards'
+We have the top bus operators on our platform.Save time and money with incredible discounts online Redeem rewards towards travel and other payments. <br /> <br />
+Travel across over 30 states nationwide" data-href='<a href="https://www.bus.com.ng/"><button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button></a>'>Bus.com.ng</a></li>
+          <li><a href="#" class="sp-box bar__click" data-header="Advance Bank" data-details="Advance Bank is a technology company that develops effective payment and data management systems for public and private sector organisations. <br /> <br />
+
+          Our core areas are revenue optimization, e-payment solutions and big data management for the electricity utility companies. In addition to our broad arsenal of payment applications and technologies we also operate over 250 payment points across 10 states of the federation on a billing aggregation platform that supports realtime transaction view, reconciliation and audit." data-href='<button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button>'>Advance Bank</a></li>
+          <li><a href="#" class="sp-box bar__click" data-header="#Pay Me" data-details="#Pay Me is a technology company that develops effective payment and data management systems for public and private sector organisations. <br /> <br />
+
+          Our core areas are revenue optimization, e-payment solutions and big data management for the electricity utility companies. In addition to our broad arsenal of payment applications and technologies we also operate over 250 payment points across 10 states of the federation on a billing aggregation platform that supports realtime transaction view, reconciliation and audit." data-href='<button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button>'>#Pay Me</a></li>
+          <li><a href="#" class="sp-box bar__click" data-header="Bills.com" data-details="Bills.com is a technology company that develops effective payment and data management systems for public and private sector organisations. <br /> <br />
+
+          Our core areas are revenue optimization, e-payment solutions and big data management for the electricity utility companies. In addition to our broad arsenal of payment applications and technologies we also operate over 250 payment points across 10 states of the federation on a billing aggregation platform that supports realtime transaction view, reconciliation and audit." data-href='<button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button>'>Bills.com</a></li>
+        </ul>
+      </div>
+      <div class="col-md-6 displ_desk" style="padding-left: 0px;">
         <div class="col-md-6 col-sm-6 col-xs-6">
           <div class="sp-box bar__click" data-header="Gpay Africa" data-details="GPAY is a technology company that develops effective payment and data management systems for public and private sector organisations. <br /> <br />
 
@@ -239,7 +261,8 @@ TechAdvance has subsidiaries across the IGR, Utilities, Finance and Transport Sp
           Our core areas are revenue optimization, e-payment solutions and big data management for the electricity utility companies. In addition to our broad arsenal of payment applications and technologies we also operate over 250 payment points across 10 states of the federation on a billing aggregation platform that supports realtime transaction view, reconciliation and audit.</p>
           <br /><br />
            <button class="sp_button">Product page <img src="assets/img/forward.svg" width="10px"></button>`)
-    $('.bar__click').click(function(){
+    $('.bar__click').click(function(e){
+      e.preventDefault()
       const main = $(this).attr('data-header');
       console.log(main)
       const details = $(this).attr('data-details');
