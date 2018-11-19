@@ -90,6 +90,13 @@ position: relative;
     padding: 5%;
 }
 
+#sub-plat ul li{
+  font-size:18px;
+  color:#456586;
+  list-style: none;
+  padding-bottom:2%;
+}
+
 #sub-plat h2{
        font-family: 'gelionmedium';
      color:#0E8DE1;
