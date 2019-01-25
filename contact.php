@@ -39,7 +39,7 @@
             <li><a href="contact.php" style="background: #0293ec;
             color: #fff !important;
             border-radius: 7px;">Contact</a></li>
-            <li><a href="#"><img src="assets/img/2000px-Flag_of_Nigeria.svg.png" class="img-responsive" alt="" style="    height: 19px;
+            <li style="background: white;border-radius: 10px;" class="hidden-sm hidden-xs"><a href="#"><img src="assets/img/2000px-Flag_of_Nigeria.svg.png" class="img-responsive" alt="" style="    height: 19px;
     border-radius: 5px;"></a></li>
           </ul>
         </div>
@@ -49,7 +49,7 @@
     <div id="static_banner">
         <div class="container">
             <h1 align="center">Get in touch</h1>
-            <p class="text-center" class="c-p">Have a question? Send us a note using the form below.</p>
+            <p class="text-center" class="c-p" style="font-size: 20px;">Have a question? Send us a note using the form below.</p>
         </div>
     </div>
   </div>
@@ -105,7 +105,7 @@
         <input type="text" class="form-control" name="name" placeholder="Name">
         <input type="email" class="form-control" name="email" placeholder="Email Address">
         <input type="text" class="form-control" name="subject" placeholder="Message Subject">
-       <textarea name="message" id="" cols="30" rows="4" class="form-control">Messages ...</textarea>
+       <textarea name="message" id="" cols="30" rows="4" class="form-control" placeholder="Messages..."></textarea>
        <button class="btn btn-success" name="submit" style="border: none; padding: 15px 63px; font-size: 15px; background: #0EDE9A;">Send Message</button>
       </form>
         </div>
@@ -124,7 +124,6 @@
     <p align="center">
      <a href="#"><button class="j-button">Click here</button></a>
     </p>
-    <img src="assets/img/team-image.png" width="100%" class="team-img">
   </div>
 
 
@@ -173,10 +172,17 @@
             </div>
           </div>
 
-          <hr />
+           <hr />
+            <div class="row">
 
+              <div class="col-md-4">
+                <img src="assets/img/inspire-africa-2019.png" class="inspire" width="350px">
+              </div>
+               <div class="col-md-8">
+                 <p align="right" class="inspire-p" style="font-size: 15px; margin-top: 2.6%"> &copy; 2014 Copyright | Allright reserve</p>
+               </div>
 
-            <p align="center" style="font-size: 14px"> &copy; 2014 Copyright | Allright reserve</p>
+            </div>
 
           </div>
       </footer>
