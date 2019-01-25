@@ -47,7 +47,7 @@ header{
 #banner h2{
      font-family: 'gelion_boldbold';
      color:#1B1B1B;
-     font-size: 45px;
+     font-size: 40px;
      margin-top: 20%;
 }
 
@@ -57,15 +57,15 @@ header{
     color:#66646F;
 }
 
-.b_button{
-    border:none;
-    background:#0EDE9A;
-    padding: 2% 6%;
-    color:white;
-    font-family: 'gelionmedium';
+.b_button {
+    border: none;
+    background: #0EDE9A;
+    padding: 3% 11%;
+    color: white;
+    font-family: 'open sans';
     border-radius: 5px;
-    font-size: 22px;
-    border-right: 60px solid #1C9E73;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .arrow{
@@ -76,18 +76,11 @@ position: relative;
 
 
 
-
-
-
-
-
-
-
 #sub-plat{
     width: 100%;
     height: auto;
     background: white;
-    padding: 5%;
+    padding: 10% 4%;
 }
 
 #sub-plat ul li{
@@ -231,6 +224,10 @@ footer ul li{
     color:#456586;
     list-style: none;
     margin-top:2%; 
+}
+
+.c-p{
+    font-size: 30px;margin-top: -8px;
 }
 
 
@@ -429,6 +426,11 @@ padding: 0px 2.5%;}
     cursor: pointer;
 }
 
+.top-bg-link{
+  background: url('../../assets/img/buildings.png') no-repeat #ECFAFF !important; 
+  background-position: right 70px bottom !important;
+}
+
 .displ_desk{
     display: block !important;
 }
@@ -442,6 +444,118 @@ padding: 0px 2.5%;}
 .displ_mobile {
     display: block !important;
 }
+.top-bg-link{
+  background: url('../../assets/img/buildings.png') no-repeat #ECFAFF !important; 
+  background-position: center bottom !important;
+  background-size:360px !important;
+}
+
+#banner h2 {
+    font-family: 'gelion_boldbold';
+    color: #1B1B1B;
+    font-size: 34px;
+    margin-top: 20%;
+}
+#banner p {
+    font-family: 'gelionmedium';
+    font-size: 19px;
+    color: #66646F;
+}
+#sub-plat ul li {
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    padding-bottom: 1%;
+      display: inline-block;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 7px;
+  
+    float: none !important;
+}
+#sub-plat h2 {
+    font-family: 'gelionmedium';
+    color: #0E8DE1;
+     font-size:25px !important;
+}
+#sub-plat h3 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 30px !important;
+}
+#sub-plat p {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 16px;
+}
+#home-abt-box {
+    width: 100%;
+    min-height: 430px !important;
+    background: url(../../assets/img/about-bg-img.png) #0E8BDE;
+    padding: 12% 4% 16% !important;
+}
+#sub-plat h4 {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 17px;
+}
+#home-abt-box h2 {
+    font-family: 'gelionmedium';
+    color: #fff;
+    font-size: 33px;
+}
+#home-abt-box p {
+    font-family: 'gelion_regularregular';
+    color: #fff;
+    font-size: 16px;
+}
+footer h3 {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 17px;
+    color: #053f7b;
+    font-weight: bolder;
+    margin-bottom: 8%;
+}
+footer ul li {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    margin-top: 2%;
+}
+a.navbar-brand img {
+    width: 127px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #424242 !important;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+#static_banner h1 {
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 46px;
+    color: #1C1C1C;
+    margin-top: 8%;
+}
+#join-us-box h1 {
+    color: white;
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 27px;
+}
+#sub-plat h5 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 20px !important;
+}
+
+#top-section {
+    width: 100%;
+    height: auto;
+    background: #ECFAFF;
+}
+
 }
 @media( max-width : 989px ) {
       .displ_desk{
@@ -450,6 +564,119 @@ padding: 0px 2.5%;}
 .displ_mobile {
     display: block !important;
 }
+#banner h2 {
+    font-family: 'gelion_boldbold';
+    color: #1B1B1B;
+    font-size: 33px !important;
+    margin-top: 20%;
+}
+#banner p {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #66646F;
+}#sub-plat ul li {
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    padding-bottom: 1%;
+      display: inline-block;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 7px;
+  
+    float: none !important;
+}
+#sub-plat h3 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 30px !important;
+}
+#sub-plat h2 {
+    font-family: 'gelionmedium';
+    color: #0E8DE1;
+    font-size:25px !important;
+}
+#sub-plat p {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 16px;
+}
+#home-abt-box {
+    width: 100%;
+    min-height: 430px !important;
+    background: url(../../assets/img/about-bg-img.png) #0E8BDE;
+    padding: 12% 4% 16% !important;
+}
+#sub-plat h5 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 20px !important;
+}
+#sub-plat h4 {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 17px;
+}
+#home-abt-box h2 {
+    font-family: 'gelionmedium';
+    color: #fff;
+    font-size: 33px;
+}
+#home-abt-box p {
+    font-family: 'gelion_regularregular';
+    color: #fff;
+    font-size: 16px;
+}
+footer h3 {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 17px;
+    color: #053f7b;
+    font-weight: bolder;
+    margin-bottom: 8%;
+}
+footer ul li {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    margin-top: 2%;
+}
+a.navbar-brand img {
+    width: 127px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #424242 !important;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+#static_banner h1 {
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 46px;
+    color: #1C1C1C;
+    margin-top: 8%;
+}
+#join-us-box h1 {
+    color: white;
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 27px;
+}
+
+.nav-pills > li {
+    float: none;
+}
+
+#static_banner {
+    width: 100%;
+    min-height: auto;
+    padding: 5%;
+}
+
+.c-p{
+    font-size: 16px;margin-top: -8px;
+}
+
 
 }
 @media( max-width : 220px ){
@@ -458,6 +685,121 @@ padding: 0px 2.5%;}
 } 
 .displ_mobile {
     display: block !important;
+}
+
+.top-bg-link{
+  background: url('../../assets/img/buildings.png') no-repeat #ECFAFF !important; 
+  background-position: center bottom !important;
+  background-size:400px !important;
+}
+#banner h2 {
+    font-family: 'gelion_boldbold';
+    color: #1B1B1B;
+    font-size: 33px !important;
+    margin-top: 20%;
+}
+#banner p {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    color: #66646F;
+}
+#sub-plat ul li {
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    padding-bottom: 1%;
+      display: inline-block;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 7px;
+  
+    float: none !important;
+}
+#sub-plat h3 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 30px !important;
+}
+#sub-plat h5 {
+    font-family: 'gelionmedium';
+    color: #1C1C1C;
+    font-size: 20px !important;
+}
+#join-us-box h1 {
+    color: white;
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 27px;
+}
+#sub-plat h2 {
+    font-family: 'gelionmedium';
+    color: #0E8DE1;
+    font-size:25px !important;
+}
+#sub-plat p {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 16px;
+}
+#home-abt-box {
+    width: 100%;
+    min-height: 430px !important;
+    background: url(../../assets/img/about-bg-img.png) #0E8BDE;
+    padding: 12% 4% 16% !important;
+}
+#home-abt-box h2 {
+    font-family: 'gelionmedium';
+    color: #fff;
+    font-size: 33px;
+}
+#home-abt-box p {
+    font-family: 'gelion_regularregular';
+    color: #fff;
+    font-size: 16px;
+}
+footer h3 {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 17px;
+    color: #053f7b;
+    font-weight: bolder;
+    margin-bottom: 8%;
+}
+#sub-plat h4 {
+    font-family: 'gelion_regularregular';
+    color: #1C1C1C;
+    font-size: 17px;
+}
+footer ul li {
+    font-family: 'gelion_regularregular', sans-serif;
+    font-size: 14px;
+    color: #456586;
+    list-style: none;
+    margin-top: 2%;
+}
+a.navbar-brand img {
+    width: 127px !important;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #424242 !important;
+    font-size: 15px !important;
+    font-weight: 500;
+}
+#static_banner h1 {
+    font-family: 'gelionmedium', sans-serif;
+    font-size: 46px;
+    color: #1C1C1C;
+    margin-top: 8%;
+}
+
+.nav-pills > li {
+    float: none;
+}
+
+#top-section {
+    width: 100%;
+    height: auto;
+    background: #ECFAFF;
 }
 
 }

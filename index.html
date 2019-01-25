@@ -2,6 +2,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="charset=utf-8" />
+  <meta name="author" content="Techadvance" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
   <!-- css links -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css">
@@ -9,7 +17,7 @@
   <title>TechAdvance </title>
 </head>
 <body>
-  <div id="top-section" style="background: url(assets/img/buildings.png) no-repeat #ECFAFF; background-position: right 70px bottom">
+  <div id="top-section" class="top-bg-link">
     <header>
        <nav class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -25,10 +33,11 @@
 
          <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">About us</a></li>
              <li><a href="about.html#team">Team</a></li>
+             <li><a href="#">Careers</a></li>
             <li><a href="http://blog.techadvance.ng/"> Blog</a></li>
-            <li><a href="contact.html" style="background: #0293ec;
+            <li><a href="contact.php" style="background: #0293ec;
             color: #fff !important;
             border-radius: 7px;">Contact</a></li>
             <li><a href="#"><img src="assets/img/2000px-Flag_of_Nigeria.svg.png" class="img-responsive" alt="" style="    height: 19px;
@@ -52,9 +61,16 @@
         <div class="container">
           <div class="col-md-6 ">
             
-            <h2><b class="animated fadeInUp" style="display: block; animation-delay: 1.2s;">Committed to building</b> <br /> <b class="animated fadeInUp" style="display: block; margin-top: -9%; animation-delay: .9s;">& investing in sustainable</b></h2>
+           <div class="displ_mobile">
+              <h2><b class="animated fadeInUp" style="animation-delay: 1.2s;">Committed to building</b><b class="animated fadeInUp" style=" animation-delay: .9s;"> & investing in sustainable</b></h2>
             <p class="animated fadeInUp" style="animation-delay: .6s;">transaction technologies for emerging markets</p>
-            <a href="contact"><button class="b_button animated fadeInUp" animation-delay: .4s;>Contact us <img src="assets/img/forward.svg" width="15px" class="arrow"></button></a>
+            <a href="contact"><button class="b_button animated fadeInUp" animation-delay: .4s;>Contact us </button></a>
+           </div>
+           <div class="displ_desk">
+              <h2><b class="animated fadeInUp" style="display: block; animation-delay: 1.2s;">Committed to building</b> <br clear="hidden-xs hidden-sm" /> <b class="animated fadeInUp" style="display: block; margin-top: -9%; animation-delay: .9s;">& investing in sustainable</b></h2>
+            <p class="animated fadeInUp" style="animation-delay: .6s;">transaction technologies for emerging markets</p>
+            <a href="contact.php"><button class="b_button animated fadeInUp" animation-delay: .4s;>Contact us</button></a>
+           </div>
          
          </div>
           <div class="col-md-6 hidden-sm hidden-xs">
@@ -181,7 +197,7 @@ Travel across over 30 states nationwide" data-href='<a href="https://www.bus.com
           <p>TechAdvance is a payment application development company with a strategic focus in developing and deploying niche payment companies to serve the needs of large public and private sector organisations in Nigeria. <br /><br />
 
 TechAdvance has subsidiaries across the IGR, Utilities, Finance and Transport Space in Nigeria.</p>
-        <button class="white-btn">Contact us</button>
+        <a href="contact.php"><button class="white-btn">Contact us</button></a>
         </div>
          <div class="col-md-5 hidden-sm hidden-xs">
            <img src="assets/img/ta-staff.png" width="110%" class="ta-staff">
@@ -208,7 +224,7 @@ TechAdvance has subsidiaries across the IGR, Utilities, Finance and Transport Sp
                 <h3>Platforms</h3>
                  <ul style="padding: 0%;">
                     <li>  Bills.com.ng</li>
-                     <li <a href="https://www.payelectricitybills.com" target="_blank"> Pay Electricity Bills</a></li>
+                     <li> <a href="https://www.payelectricitybills.com" target="_blank"> Pay Electricity Bills</a></li>
                      <li><a href="https://bus.com.ng" target="_blank">  Bus.com.ng </a></li>
                      <li> Business in the box</li>
                     
@@ -218,7 +234,7 @@ TechAdvance has subsidiaries across the IGR, Utilities, Finance and Transport Sp
                 <h3>About us</h3>
                 <ul style="padding: 0%;">
                    <li> <a href="about.html"> Team members </a></li>
-                     <li> <a href="http://206.189.174.16:9080/"> Career </a></li>
+                     <li> <a href="#"> Careers </a></li>
                      <li> <a href="privacy-policy.html">Privacy Policy</a> </li>
             <li> Staff Portal</li>
                 </ul>
